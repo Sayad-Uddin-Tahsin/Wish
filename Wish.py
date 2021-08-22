@@ -21,7 +21,7 @@ elif 'Happy Birthday' in command:
     if 'Happy Birthday' in command:
         command = command.replace('Happy Birthday', '')
     birthday_text = text2art("\nHappy   Birthday\n" + command, 'roman')
-    speed = 0.01
+    speed = 0.001
     for char in birthday_text:
         sleep(speed)
         sys.stdout.write(char)
