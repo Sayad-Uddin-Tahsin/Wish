@@ -4,7 +4,7 @@
 import sys
 from time import sleep
 from art import *
-# type pip install art in Terminal
+# type "pip install art" in Terminal
 
 command = input("Type Congratulations/Happy Birthday {name} to wish\n>>> ")
 if 'Congratulations' in command:
